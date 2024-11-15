@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height:100vw ;
+    width: 100vw;
+    background-color: rgb(225, 218, 149); 
+}
+#heading{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: head 1.5s linear 1s infinite alternate;
+    transform: scale(0.5);
+}
+@keyframes head {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.5);
+    }
+}
+#image{
+    height:30% ;
+    width:100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+   
+}
+#container{
+    height:100% ;
+    width:60% ;
+    /* box-shadow:0px 0px 30px black ; */
+   
+}
+img{
+    height:100% ;
+    width: 100%;
+    object-fit: cover;
+    border: 0.5px solid black;
+    border-radius:20px;
+    box-shadow:0px 0px 30px black ;
+}
+#para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+#box{
+    height:60% ;
+    width:100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+#contentbox{
+    height:100% ;
+    width:70% ;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 30px;  
+    box-shadow: 0px 0px 30px black;
+}
+#list{
+    margin-top: 30px;
+    height:6%;
+    width:100%;
+    font-size: 25px;
+    overflow: auto;
+}
+#subheading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#note{
+    height:5% ;
+    width:100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
+}
+    </style>
+</head>
+<body>
+    <div id="heading"><h1>A.P.J.Abdul Kalam</h1></div>
+    <div id="image">
+        <div id="container"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnnqDbfkrXK66TMtHy1-jTPI6NS21EVagFFQ&s" alt=""></div>
+    </div>
+    <div id="para">
+        <p>Great Indian scientist and politician who played a leading role in the development of India's missile and nuclear weapons program.</p>
+    </div>
+    <div id="box">
+        <div id="contentbox">
+            <div id="subheading"><h2 id="subhead">About the Legend</h2>  </div>
+            <div id="list"><p><b> *Early Life</b>: Born on October 15, 1931, in Rameswaram, Tamil Nadu, Kalam came from a humble background and worked as a newspaper vendor to support his family.</p></div>
+            <div id="list"><p><b> *Education</b>: He graduated in physics from St. Joseph's College, Tiruchirappalli, and later earned a degree in aerospace engineering from the Madras Institute of Technology.</p></div>
+            <div id="list"><p><b> *Career in ISRO and DRDO</b>: Kalam played a crucial role in India's space and missile programs. He was a key figure in the development of the SLV-3, India's first satellite launch vehicle, and the Agni and Prithvi missiles.</p></div>
+            <div id="list"><p><b> *Presidency</b>: He served as the 11th President of India from 2002 to 2007, earning the title "People's President" for his approachable nature.</p></div>
+            <div id="list"><p><b> *Visionary</b>: Kalam was known for his vision of India as a developed nation by 2020, advocating for education, technology, and innovation.</p></div>
+            <div id="list"><p><b> *Author</b>: He wrote several inspirational books, including "Wings of Fire" and "Ignited Minds," focusing on youth empowerment and national development.</p></div>
+            <div id="list"><p><b> *Awards and Honors</b>: Received numerous awards, including the Bharat Ratna, India's highest civilian award, and various honorary doctorates.</p></div>
+            <div id="list"><p><b> *Legacy</b>: Kalam's legacy continues to inspire millions, particularly youth, to pursue education and contribute to society. He emphasized the importance of dreams, hard work, and integrity.</p></div>
+            <div id="list"><p><b> *Death</b>: He passed away on July 27, 2015, while delivering a lecture at the Indian Institute of Management Shillong, leaving behind a profound impact on the nation.</p></div>
+            <div id="list"><p><b> *Philosophy</b>: Advocated for a vision of a peaceful and prosperous India, emphasizing the importance of education, ethics, and responsibility in leadership.</p></div>
+            
+        </div>
+        
+    </div> 
+    <div id="note">
+        <p>For more information cheak out <b>A.P.J.Abdul Kalam</b> on wikipedia. [Developed by <a href="">@Mohit Dubey]</a></p>
+    </div>
+</body>
+</html>
